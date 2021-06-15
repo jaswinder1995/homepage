@@ -1,3 +1,181 @@
-h1 {
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+.navbar-nav{
+ 
+ position: sticky;
+ top: 0;
+ z-index:10;
+}
+.navbar{
+    background-image:linear-gradient(to right,#a517ba,#5f1782) ;
+    padding: 0!important;
+}
+.navbar-brand img{
+    height: 40px;
+   
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    font-weight: 600;
+    color: rgb(255, 254, 254)!important;
+}
+.fa-bars{
+    color: white;
+    
+}
+/* -----banner section--- */
+.banner{
+    background-image:linear-gradient(to right,#a517ba,#5f1782) ;
+    padding-top:5%; 
+    color: white; 
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.ply-btn{
+    width: 45px;
+    margin: 20px;
+}
+.banner a{
+    color: white;
+    text-decoration: none;
+}
+.banner a:hover{
+   
+    color: white;
+}
+.bottom-img{
+    width: 100%;
+}
+/* -----services section--- */
+.services
+{
+    padding: 80px 0;
+}
+.services img{
+    width: 40%;
+}
+.services h4{
+    padding:5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.services h1{
+    padding: 45px;
+}
+.services button{
+    background: #a517ba;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 25px;
+  margin-top: 50px;
+  color: #F8F9F9;
+}
+/* ----about-us---- */
+.about-us{
+    background:#F8F9F9 ;
+    padding-top: 50px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 600;
+    
+    padding-left: 24px;
+    margin-top: 40px;
+}
+.about-us ul li{
+    margin: 20px 0px;
+}
+/* -----testimonials section--- */
+.testimonials-sec{
+    margin: 100px 0;
+}
+.testimonials{
+    margin-top: 50px!important;
+    border-left: 4px solid #a517ba;
+  
+}
+.testimonials img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+ display: inline-block;
+ font-size: 14px;
+}
+/* -------social-media--- */
+.social-media{
+    background:#F8F9F9 ;
+    padding:40px 0 ;
+}
+.social-media p{
+    font-size: 36px;
+    font-weight:600;
+}
+.social-media img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-media a:hover img{
+    transform:translatey(-10px);
+}
+/* ----foooter---- */
+.footer{
+    background-image:linear-gradient(#a517ba,#5f1782) ;
+    color: white;
+}
+.footer-img {
+    width: 100%;
+}
+.footer-box {
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fas{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    background-image:linear-gradient(#a517ba,#5f1782) ;
+    border-radius: 5px;
+}
+.footer-box .form-control
+{
+border: none;
+border-radius:0;
+box-shadow: none !important;
+margin-top: 25px;
+width: 250px;
+}
+.footer-box button{
+    border: none;
+    border-radius:0;
+    box-shadow: none !important; 
+    margin-top: 30px; 
+    background-image:linear-gradient(#a517ba,#5f1782) ;
+}
+hr{
+    background: #F8F9F9;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
 }
